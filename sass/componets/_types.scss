@@ -1,0 +1,169 @@
+@mixin fonts {
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin help {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@mixin flex {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+@mixin header {
+    width: 50%;
+    min-height: calc(100vh - 10vh);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+
+@mixin box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin boxxing2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@mixin boxxing1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin button1 {
+    width: 132px;
+    height: 50px;
+    left: 1119px;
+    top: 47px;
+    border: 3px solid $colorLightOrange;
+    border-radius: 5px;
+    cursor: pointer;
+    @include fonts;
+    font-size: 17px;
+    line-height: 22px;
+    color: $colorLightOrange;
+}
+
+@mixin menu {
+    width: 40%;
+    min-height: 10vh;
+    gap: 30px;
+}
+
+@mixin select {
+    border: none;
+    cursor: pointer;
+}
+
+@mixin sign {
+    width: 30%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+@mixin travel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin text {
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@mixin text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $colorLightBlue;
+    width: 557px;
+    height: 90px;
+}
+
+@mixin video {
+    width: 52px;
+    height: 52px;
+    background: $colorDarkOrange;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+    border-radius: 50%;
+}
+
+@mixin category {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@mixin item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+@mixin calc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #5E6282;
+    width: 70%;
+}
+
+@mixin item3 {
+    width: 280px;
+    height: 345px;
+    border-radius: 36px;
+    gap: 40px !important;
+}
+
+@mixin nav-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@mixin left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
